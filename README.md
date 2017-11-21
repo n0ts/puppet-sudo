@@ -1,6 +1,6 @@
 # Sudo
 
-[![Build Status](https://travis-ci.org/boxen/puppet-sudo.png?branch=master)](https://travis-ci.org/boxen/puppet-sudo)
+[![Build Status](https://travis-ci.org/boxen/puppet-sudo.svg)](https://travis-ci.org/boxen/puppet-sudo)
 
 Type/provider for managing sudoers file.
 
