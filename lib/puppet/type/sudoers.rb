@@ -165,7 +165,7 @@ Defaults@host x=y,one=1,two=2
   SUDOERS_SPEC = [:users, :hosts, :commands]
 
   validate do
-    if self[:ensure] == :present
+    if self[:ensure]
       case self.value(:type)
        when 'default'
         checkprops(SUDOERS_DEFAULT)
